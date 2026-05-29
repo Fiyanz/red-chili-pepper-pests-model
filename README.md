@@ -81,6 +81,12 @@ Ringkasan cepat dari confusion matrix di atas:
 - Kesalahan utama: `5` sampel `MP` diprediksi sebagai `BT`.
 - Kesalahan minor: `1` sampel `T` diprediksi sebagai `C`.
 
+### Sample Predictions
+
+Berikut contoh prediksi model pada beberapa gambar uji (label sebenarnya ditampilkan sebagai teks di bawah tiap gambar):
+
+![Sample Predictions](assets/sample_predictions.png)
+
 ## Lokasi Model Hasil dan Inferensi
 - Model TensorFlow (SavedModel): `save_model/`
 - Model TFLite: `tflite/`
